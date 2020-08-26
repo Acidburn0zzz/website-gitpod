@@ -70,7 +70,7 @@ const Styled = styled.div<{ direction?: string; flexDirectionColumnForImgContain
     }
 
     @media (max-width: ${sizes.breakpoints.md}) {
-      padding: 0 2rem;
+      padding: 0 1rem;
     }
 
     @media (max-width: ${sizes.breakpoints.sm}) {
