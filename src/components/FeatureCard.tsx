@@ -12,6 +12,10 @@ const Styled = styled.div<{ direction?: string; flexDirectionColumnForImgContain
 
   &:not(:last-child) {
     margin-bottom: 18rem;
+
+    @media (max-width: 500px) {
+      margin-bottom: 10rem;
+    }
   }
 
   @media (max-width: ${sizes.breakpoints.sm}) {
